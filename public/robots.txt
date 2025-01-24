@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://chinese-name-generator.vercel.app/sitemap.xml 
+Sitemap: https://re-cnname.vercel.app/sitemap.xml 
