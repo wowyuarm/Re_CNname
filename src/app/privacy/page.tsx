@@ -1,4 +1,4 @@
- 'use client';
+'use client';
 
 import Layout from '@/components/Layout';
 
@@ -93,4 +93,4 @@ export default function PrivacyPage() {
       </div>
     </Layout>
   );
-}
+} 
