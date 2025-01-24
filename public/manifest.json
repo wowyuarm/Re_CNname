@@ -1,0 +1,21 @@
+{
+  "name": "Chinese Name Generator",
+  "short_name": "CN Names",
+  "description": "Generate personalized Chinese names based on your preferences",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a365d",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    }
+  ]
+} 
