@@ -1,3 +1,5 @@
+'use client';
+
 /**
  * @fileoverview 布局组件，包含页面的基本结构和导航
  */
