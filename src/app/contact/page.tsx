@@ -1,6 +1,6 @@
- 'use client'
+ 'use client';
 
-import Layout from '@/components/Layout'
+import Layout from '@/components/Layout';
 
 export default function ContactPage() {
   return (
@@ -25,8 +25,8 @@ export default function ContactPage() {
               <ul>
                 <li>
                   <strong>Email:</strong>{' '}
-                  <a href="wuyuang05@outlook.com">
-                    wuyuang05@outlook.com
+                  <a href="mailto:wuyuang1007@gmail.com">
+                    wuyuang1007@gmail.com
                   </a>
                 </li>
                 <li>
@@ -67,5 +67,5 @@ export default function ContactPage() {
         </div>
       </div>
     </Layout>
-  )
+  );
 }

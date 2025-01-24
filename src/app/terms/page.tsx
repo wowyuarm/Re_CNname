@@ -1,6 +1,6 @@
- 'use client'
+ 'use client';
 
-import Layout from '@/components/Layout'
+import Layout from '@/components/Layout';
 
 export default function TermsPage() {
   return (
@@ -14,7 +14,7 @@ export default function TermsPage() {
             
             <div className="prose prose-lg">
               <p>
-                Last updated: January 22, 2024
+                Last updated: January 23, 2025
               </p>
 
               <h2>Agreement to Terms</h2>
@@ -76,8 +76,8 @@ export default function TermsPage() {
               <h2>Contact</h2>
               <p>
                 For any questions about these Terms of Service, please contact us at{' '}
-                <a href="mailto:wuyuang05@outlook.com">
-                  wuyuang05@outlook.com
+                <a href="mailto:wuyuang1007@gmail.com">
+                  wuyuang1007@gmail.com
                 </a>
               </p>
             </div>
@@ -85,5 +85,5 @@ export default function TermsPage() {
         </div>
       </div>
     </Layout>
-  )
+  );
 }

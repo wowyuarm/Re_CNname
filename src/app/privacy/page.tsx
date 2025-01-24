@@ -1,6 +1,6 @@
- 'use client'
+ 'use client';
 
-import Layout from '@/components/Layout'
+import Layout from '@/components/Layout';
 
 export default function PrivacyPage() {
   return (
@@ -14,7 +14,7 @@ export default function PrivacyPage() {
             
             <div className="prose prose-lg">
               <p>
-                Last updated: January 22, 2024
+                Last updated: January 23, 2025
               </p>
 
               <h2>Introduction</h2>
@@ -83,8 +83,8 @@ export default function PrivacyPage() {
               <h2>Contact Us</h2>
               <p>
                 If you have any questions about this Privacy Policy, please contact us at{' '}
-                <a href="mailto:wuyuang05@outlook.com">
-                  wuyuang05@outlook.com
+                <a href="mailto:wuyuang1007@gmail.com">
+                  wuyuang1007@gmail.com
                 </a>
               </p>
             </div>
@@ -92,5 +92,5 @@ export default function PrivacyPage() {
         </div>
       </div>
     </Layout>
-  )
+  );
 }
