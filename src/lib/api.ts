@@ -5,6 +5,17 @@ import type { UserInfoFormData } from './validations'
 import type { Question, GeneratedName } from '@/types/api'
 
 /**
+ * 获取API基础URL
+ */
+function getBaseUrl() {
+  if (process.env.NEXT_PUBLIC_API_URL) {
+    return process.env.NEXT_PUBLIC_API_URL
+  }
+  // 在生产环境中使用相对路径
+  return '/api'
+}
+
+/**
  * 生成个性化问题
  * @param userInfo - 用户基本信息
  * @returns 返回生成的问题列表
@@ -12,7 +23,7 @@ import type { Question, GeneratedName } from '@/types/api'
 export async function generateQuestions(
   userInfo: UserInfoFormData
 ): Promise<{ questions: Question[] }> {
-  const response = await fetch('/api/generate-questions', {
+  const response = await fetch(`${getBaseUrl()}/generate-questions`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -38,7 +49,7 @@ export async function generateName(
   userInfo: UserInfoFormData,
   answers: Record<string, string>
 ): Promise<{ name: GeneratedName }> {
-  const response = await fetch('/api/generate-name', {
+  const response = await fetch(`${getBaseUrl()}/generate-name`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

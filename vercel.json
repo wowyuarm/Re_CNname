@@ -9,6 +9,12 @@
     "ZHIPUAI_API_KEY": "@zhipuai_api_key",
     "ZHIPUAI_MODEL": "glm-4-flash"
   },
+  "build": {
+    "env": {
+      "ZHIPUAI_API_KEY": "@zhipuai_api_key",
+      "ZHIPUAI_MODEL": "glm-4-flash"
+    }
+  },
   "headers": [
     {
       "source": "/api/(.*)",
